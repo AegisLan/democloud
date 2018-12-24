@@ -1,5 +1,6 @@
 server:
   port: 9100
+
 spring:
   application:
     name: config-server
@@ -7,10 +8,10 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/AegisLan/config-server/
-          search-paths: config-repo
+          uri: https://github.com/AegisLan/democloud.git
+          search-paths: /config-repo/*
           username: AegisLan
           password: hem2535440
-
+      label: master
 
 

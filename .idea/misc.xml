@@ -16,6 +16,7 @@
         <option value="$PROJECT_DIR$/eureka-client3/pom.xml" />
         <option value="$PROJECT_DIR$/hystrix-dashboard/pom.xml" />
         <option value="$PROJECT_DIR$/dashboard/pom.xml" />
+        <option value="$PROJECT_DIR$/config-client/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
