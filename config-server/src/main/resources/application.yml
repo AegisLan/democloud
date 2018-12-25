@@ -8,8 +8,8 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/AegisLan/democloud.git
-          search-paths: /config-repo/*
+          uri: https://github.com/AegisLan/cloud-config-repo.git
+          search-paths: /**
           username: AegisLan
           password: hem2535440
       label: master
