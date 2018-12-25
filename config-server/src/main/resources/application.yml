@@ -8,10 +8,16 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/AegisLan/cloud-config-repo.git
-          search-paths: /**
+          uri: file://Users/aegis/Documents/Code/Github/cloud-config-repo
+          search-paths: /*
           username: AegisLan
           password: hem2535440
+          clone-on-start: true
+          basedir: /Users/aegis/Documents/Code/local-repo
       label: master
 
 
+logging:
+  level:
+    org.springframework.cloud: DEBUG
+    org.springframework.boot: DEBUG
